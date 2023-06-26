@@ -1,2 +1,2 @@
 #requirement.tex
-snoflake-connector-python
+snowflake-connector-python
