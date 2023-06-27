@@ -68,7 +68,7 @@ if streamlit.button('Get fruit load list'):
 #my_cur.execute("select * from pc_rivery_db.public.fruit_load_list")
 #streamlit.header("The Fruit Load list:")
 
-def insert_row_snoflake(new_fruit)
+def insert_row_snoflake(new_fruit):
     with my_cnx.cursor() as my_cur:
          my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit')")
          return 'Tanks for adding' + new_fruit
